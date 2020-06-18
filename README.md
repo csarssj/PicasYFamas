@@ -1,4 +1,4 @@
-#  Servidor-Web-Concurrente
+#  Picas y Famas
 ## Manual de usuario
 
 Si se deseea hacer uso del programa lo primero que debe realizarse el clonar el repositorio almacenado en Github a través del siguiente comando:
