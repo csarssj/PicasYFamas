@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Picas y Famas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link th:href="@{estilos.css}" rel="stylesheet" />
+</head>
+<body>
+    <div aling="center">
+        <h2>Picas y Famas</h2>
+        <h3>Ingresa tu numero:</h3>
+        <form action="/game" method="post">
+            Intento:  <input name="currentAttempt"/> <br/>
+            <p> <input type="submit" value="Adivinar">
+                <input name="reset" type="submit" value="reiniciar" /></p>
+        </form>
+        <br>
+        <p th:text="'numero: ' + ${random}" />
+        <p th:text="'picas: ' + ${picas}" />
+        <p th:text="'famas: ' + ${famas}" />
+        <h4>Intentos</h4>
+        <p th:each="attempt : ${attempts}">
+            <span th:text="${attempt}"></span>
+        </p>
+    </div>
+
+</body>
+</html>
