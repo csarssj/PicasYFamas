@@ -16,7 +16,7 @@ mvnw spring-boot:run
 ```
 ingresando a través de este link desplegado en heroku:
 
-[heroku](https://calm-brushlands-54526.herokuapp.com/index.html)
+[https://picaspalas-arsw.herokuapp.com/](https://picaspalas-arsw.herokuapp.com/)
 
 o si prefiere directamente desde el localhost:
 
