@@ -24,7 +24,7 @@ o si prefiere directamente desde el localhost:
 
 este es un ejemplo de la app funcionando.
 
-![image](https://github.com/csarssj/ARSW-5-SpringApp/blob/master/img/prueba.png)
+![image](https://github.com/csarssj/PicasYFamas/blob/master/img/prueba.png)
 
 ### Prerequisitos
 
